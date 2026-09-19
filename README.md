@@ -16,6 +16,17 @@ A cyberpunk-themed 6-key macropad with a rotary encoder, OLED display, and RGB l
 * Seeed Studio XIAO RP2040
 * Custom PCB
 * Custom 3D-printed case
+
+## BOM
+| Component.                   |Quantity   |
+| -------------------------    | ------------  |
+| Seeed Studio Xiao RP2040                     | 1    |
+| 0.91 inch OLED                    | 1|
+| Diodes                | 7|
+| EC11 Rotary Encoder            | 1  |
+| MX Switches  | 6 |
+| Keycaps          | 6|
+
   
 
 ## Controls
@@ -46,7 +57,7 @@ The PCB also has two WS2812 LEDs and an I2C connection for the OLED display.
 
 The PCB was designed in KiCad.
 <img width="1052" height="737" alt="image" src="https://github.com/user-attachments/assets/a104a7f1-2d1c-4624-bcb2-695044eef0ce" />
-“The PCB is relatively simple, but as an easter egg I added silkscreen labels to make it look like it was actually made by a Cyberpunk corporation.
+The PCB is relatively simple, but as an easter egg I added silkscreen labels to make it look like it was actually made by a Cyberpunk corporation.
 I know the average user isn't even likely to see them, but I found it cool. ;)
 
 
@@ -86,7 +97,23 @@ The QMK keyboard files are located in:
 
 The keyboard uses a 6-key matrix and supports the rotary encoder, OLED display, RGB lighting, and media controls.
 
+## What I learnt
+- KiCAD
+- DRC
+- PCB and schematics design
+- Solving of errors in PCB design
+- Working of a keyboard matrix
+- Fusion
+- QMK
+- GitHub
+- Creating a prototype model to virtually put it all together
 
+## Future Improvements
+-Add more OLED animations
+-Add configurable RGB effects
+-Add multiple QMK layers
+-Improve the case/LED diffusion
+-Possibly add a buzzer or additional controls
 
 ## AI Usage
 
