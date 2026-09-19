@@ -16,6 +16,7 @@ This was made for Hack Club's Hackpad/Stardance hardware projects.
 * Seeed Studio XIAO RP2040
 * Custom PCB
 * Custom 3D-printed case
+  
 
 ## Controls
 
@@ -44,6 +45,8 @@ The PCB also has two WS2812 LEDs and an I2C connection for the OLED display.
 ## PCB
 
 The PCB was designed in KiCad.
+<img width="1052" height="737" alt="image" src="https://github.com/user-attachments/assets/a104a7f1-2d1c-4624-bcb2-695044eef0ce" />
+
 
 The `PCB/` folder contains:
 
@@ -52,6 +55,8 @@ The `PCB/` folder contains:
 * KiCad project files
 
 The `Production/` folder contains the manufacturing files, including the Gerbers.
+<img width="1210" height="906" alt="image" src="https://github.com/user-attachments/assets/25a0ae71-7c2c-4688-98ed-715afccfd1b1" />
+
 
 ## CAD
 
@@ -60,16 +65,18 @@ The case was designed in Fusion.
 The `CAD/` folder contains the assembled STEP model.
 
 The `Production/` folder contains the STL files for the upper and lower case.
+<img width="710" height="566" alt="image" src="https://github.com/user-attachments/assets/7d98bf65-65bf-4b1b-a1b7-03b2dac3d34e" />
+<img width="656" height="213" alt="image" src="https://github.com/user-attachments/assets/b5ffdf39-ffcc-417c-8517-1a1163f993f6" />
+<img width="771" height="576" alt="image" src="https://github.com/user-attachments/assets/be04faf4-1194-4388-a565-030af0d06e06" />
+
 
 ## Firmware
 
 The firmware is written using QMK.
 
 The QMK keyboard files are located in:
+`Firmware/keyboard/`
 
-```text
-Firmware/keyboard/
-```
 
 The keyboard uses a 6-key matrix and supports the rotary encoder and media controls.
 
@@ -77,6 +84,4 @@ The keyboard uses a 6-key matrix and supports the rotary encoder and media contr
 
 ## AI Usage
 
-I used AI to better understand the components.
-I heavily relied on Claude to help me with the code because I was new to QMK firmware.
-Also, I used Claude, ChatGPT, Copilot to review my projects and find any bugs.
+I used AI to better understand some of the components and concepts involved and I heavily relied on Claude while writing the QMK firmware because I was new to QMK. I also used Claude, ChatGPT, and Copilot to review the project and help find bugs and inconsistencies.
