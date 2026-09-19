@@ -17,11 +17,11 @@ enum layer_names {
 // KEYMAP
 // ============================================================
 //
-// Physical PCB:
+// Physical PCB (matches x,y positions in keyboard.json):
 //
-//     SW1   SW3   SW5   Encoder SW
+//     PrtSc   W       Alt+Tab   Encoder SW
 //
-//     SW2   SW4   SW6
+//     A       S       D
 //
 // Matrix:
 //
@@ -32,8 +32,8 @@ enum layer_names {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_BASE] = LAYOUT(
-        KC_ESC,  KC_1,    KC_2,    KC_MPLY,
-        KC_3,    KC_4,    KC_5
+        KC_PSCR, KC_W,    LALT(KC_TAB), KC_MPLY,
+        KC_A,    KC_S,    KC_D
     )
 };
 
@@ -81,7 +81,7 @@ static bool eye_surprised = false;
 
 
 // ============================================================
-// DRAW A RECTANGULAR "CYBER EYE"
+// DRAW A RECTANGULAR EYE
 // ============================================================
 
 static void draw_eye(void) {
@@ -267,33 +267,33 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
         switch (keycode) {
 
-            // SW1
-            case KC_ESC:
-                eye_react(48, 16);
+            // Top-left: Print Screen
+            case KC_PSCR:
+                eye_react(48, 12);
                 break;
 
-            // SW2
-            case KC_1:
+            // Top-middle: W
+            case KC_W:
                 eye_react(58, 12);
                 break;
 
-            // SW3
-            case KC_2:
+            // Top-right: Alt+Tab
+            case LALT(KC_TAB):
                 eye_react(80, 12);
                 break;
 
-            // SW6
-            case KC_3:
+            // Bottom-left: A
+            case KC_A:
                 eye_react(48, 20);
                 break;
 
-            // SW5
-            case KC_4:
+            // Bottom-middle: S
+            case KC_S:
                 eye_react(64, 20);
                 break;
 
-            // SW4
-            case KC_5:
+            // Bottom-right: D
+            case KC_D:
                 eye_react(80, 20);
                 break;
 
@@ -319,4 +319,3 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
     return true;
 }
-
