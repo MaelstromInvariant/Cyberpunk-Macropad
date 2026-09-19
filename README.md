@@ -1,9 +1,9 @@
 # Cyberpunk Macro-Pad
 
 A cyberpunk-themed 6-key macropad with a rotary encoder, OLED display, and RGB lighting.
+Its awesome ik :3
 
 
-This was made for Hack Club's Hackpad/Stardance hardware projects.
 
 ## Features
 
