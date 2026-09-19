@@ -79,10 +79,10 @@ The `CAD/` folder contains the assembled STEP model.
 
 The `Production/` folder contains the STL files for the upper and lower case.
 <img width="710" height="566" alt="image" src="https://github.com/user-attachments/assets/7d98bf65-65bf-4b1b-a1b7-03b2dac3d34e" />
-I used grills above one of the LEDs so the user doesn't get blasted by unobstructed, pure, unfiltered 500 THz electromagnetic radiation 
+I used grills above one of the LEDs so the user doesn't get blasted by unobstructed, pure and unfiltered 500 THz electromagnetic radiation 
 (technically true).
 
-The other LED is close to the keyboard and naturally creates an ambient underglow
+The other LED is close to the keyboard and naturally creates an ambient underglow.
 I decided to keep the area around the main keyboard exposed to give it the Cyberpunk vibe.
 <img width="656" height="213" alt="image" src="https://github.com/user-attachments/assets/b5ffdf39-ffcc-417c-8517-1a1163f993f6" />
 <img width="771" height="576" alt="image" src="https://github.com/user-attachments/assets/be04faf4-1194-4388-a565-030af0d06e06" />
@@ -96,6 +96,8 @@ The QMK keyboard files are located in:
 `Firmware/keyboard/`
 
 The keyboard uses a 6-key matrix and supports the rotary encoder, OLED display, RGB lighting, and media controls.
+The OLED panel displays ab eye animation which reacts when you press a key!
+👁️👄👁️ 
 
 ## What I learnt
 - KiCAD
@@ -109,11 +111,11 @@ The keyboard uses a 6-key matrix and supports the rotary encoder, OLED display, 
 - Creating a prototype model to virtually put it all together
 
 ## Future Improvements
--Add more OLED animations
--Add configurable RGB effects
--Add multiple QMK layers
--Improve the case/LED diffusion
--Possibly add a buzzer or additional controls
+- Add better OLED animations
+- Add configurable RGB effects
+- Improve the LED diffusion
+- Possibly add a buzzer or additional features
+
 
 ## AI Usage
 
