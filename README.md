@@ -18,7 +18,7 @@ A cyberpunk-themed 6-key macropad with a rotary encoder, OLED display, and RGB l
 * Custom 3D-printed case
 
 ## BOM
-| Component.                   |Quantity   |
+| Component                  |Quantity   |
 | -------------------------    | ------------  |
 | Seeed Studio Xiao RP2040                     | 1    |
 | 0.91 inch OLED                    | 1|
