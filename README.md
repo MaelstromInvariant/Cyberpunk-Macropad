@@ -8,10 +8,10 @@ A cyberpunk-themed 6-key macropad with a rotary encoder, OLED display, and RGB l
 ## Features
 
 * 6 MX-style mechanical switches
-* EC11 rotary encoder
+* EC11E rotary encoder
 * Encoder push button
 * 0.91" OLED display
-* 2× WS2812 RGB LEDs
+* 2× SK6812 RGB LEDs
 * USB-C
 * Seeed Studio XIAO RP2040
 * Custom PCB
@@ -23,10 +23,12 @@ A cyberpunk-themed 6-key macropad with a rotary encoder, OLED display, and RGB l
 | Seeed Studio Xiao RP2040                     | 1    |
 | 0.91 inch OLED                    | 1|
 | Diodes                | 7|
-| EC11 Rotary Encoder            | 1  |
+| EC11E Rotary Encoder            | 1  |
+| SK6812 | 2 |
 | MX Switches  | 6 |
 | Keycaps          | 6|
-
+| M3x16mm Screws |2|
+| M3x5mx14mm heatset-inserts |2|
   
 
 ## Controls
@@ -79,7 +81,7 @@ The `CAD/` folder contains the assembled STEP model.
 
 The `Production/` folder contains the STL files for the upper and lower case.
 <img width="710" height="566" alt="image" src="https://github.com/user-attachments/assets/7d98bf65-65bf-4b1b-a1b7-03b2dac3d34e" />
-The Macro-pad features and upper case and a lower case which screw with heatset-inserts.
+The Macro-pad features and upper case and a lower case which are screw with 2 screws and 2 heatset-inserts.
 
 I used grills above one of the LEDs so the user doesn't get blasted by unobstructed, pure and unfiltered 500 THz electromagnetic radiation 
 (technically true).
