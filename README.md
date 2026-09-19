@@ -100,7 +100,7 @@ The QMK keyboard files are located in:
 `Firmware/keyboard/`
 
 The keyboard uses a 6-key matrix and supports the rotary encoder, OLED display, RGB lighting, and media controls.
-The OLED panel displays ab eye animation which reacts when you press a key!
+The OLED panel displays an eye-animation which reacts when you press a key!
 
 👁️👄👁️ 
 
