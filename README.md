@@ -79,11 +79,13 @@ The `CAD/` folder contains the assembled STEP model.
 
 The `Production/` folder contains the STL files for the upper and lower case.
 <img width="710" height="566" alt="image" src="https://github.com/user-attachments/assets/7d98bf65-65bf-4b1b-a1b7-03b2dac3d34e" />
+The Macro-pad features and upper case and a lower case which screw with heatset-inserts.
+
 I used grills above one of the LEDs so the user doesn't get blasted by unobstructed, pure and unfiltered 500 THz electromagnetic radiation 
 (technically true).
 
 The other LED is close to the keyboard and naturally creates an ambient underglow.
-I decided to keep the area around the main keyboard exposed to give it the Cyberpunk vibe.
+I decided to keep the area around the main keyboard slightly exposed to give it the Cyberpunk vibe.
 <img width="656" height="213" alt="image" src="https://github.com/user-attachments/assets/b5ffdf39-ffcc-417c-8517-1a1163f993f6" />
 <img width="771" height="576" alt="image" src="https://github.com/user-attachments/assets/be04faf4-1194-4388-a565-030af0d06e06" />
 
@@ -97,6 +99,7 @@ The QMK keyboard files are located in:
 
 The keyboard uses a 6-key matrix and supports the rotary encoder, OLED display, RGB lighting, and media controls.
 The OLED panel displays ab eye animation which reacts when you press a key!
+
 👁️👄👁️ 
 
 ## What I learnt
