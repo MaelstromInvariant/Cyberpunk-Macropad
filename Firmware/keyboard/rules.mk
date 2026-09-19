@@ -1,0 +1,15 @@
+# OLED
+OLED_ENABLE = yes
+OLED_TRANSPORT = i2c
+OLED_DRIVER = ssd1306
+
+# RGB LEDs
+RGBLIGHT_ENABLE = yes
+WS2812_DRIVER = vendor
+
+# Encoder
+ENCODER_ENABLE = yes
+ENCODER_MAP_ENABLE = yes
+
+# RP2040 optimization
+LTO_ENABLE = yes
