@@ -28,7 +28,7 @@ A cyberpunk-themed 6-key macropad with a rotary encoder, OLED display, and RGB l
 | MX Switches  | 6 |
 | Keycaps          | 6|
 | M3x16mm Screws |2|
-| M3x5mx14mm heatset-inserts |2|
+| M3x5x14mm heatset-inserts |2|
   
 
 ## Controls
@@ -105,10 +105,10 @@ The OLED panel displays an eye-animation which reacts when you press a key!
 👁️👄👁️ 
 
 ## What I learnt
-- KiCAD
+- KiCad
 - DRC
 - PCB and schematics design
-- Debugging and resolving PCB design issues
+- Debugging PCB design issues
 - How keyboard matrices work
 - Fusion
 - QMK
