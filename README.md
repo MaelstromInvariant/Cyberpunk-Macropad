@@ -20,12 +20,13 @@ This was made for Hack Club's Hackpad/Stardance hardware projects.
 ## Controls
 
 | Control                   | Function     |
-| ------------------------- | ------------ |
-| ESC                       | Escape       |
-| 1–5                       | Number keys  |
-| Encoder clockwise         | Volume up    |
-| Encoder counter-clockwise | Volume down  |
-| Encoder press             | Play / Pause |
+| -------------------------    | ------------  |
+| PrtSc                        | Screenshot    |
+| W,A,S,D                      | Movement keys |
+| Alt Tab                      | Switches tabs |
+| Encoder clockwise            | Volume up     |
+| Encoder counter-clockwise    | Volume down   |
+| Encoder press                | Play / Pause  |
 
 ## Why I made it
 
