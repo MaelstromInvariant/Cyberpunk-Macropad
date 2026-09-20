@@ -29,6 +29,7 @@ A cyberpunk-themed 6-key macropad with a rotary encoder, OLED display, and RGB l
 | Keycaps          | 6|
 | M3x16mm Screws |2|
 | M3x5x14mm heatset-inserts |2|
+| Serplex 12-in-1 Soldering Iron Tool Kit 80W (or any other soldering iron) |1|
   
 
 ## Controls
