@@ -127,7 +127,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 }
 
 #ifdef OLED_ENABLE
-// encoder: encoder_map skips process_record_user, so react() happens here
+// encoder
 bool encoder_update_user(uint8_t index, bool cw) {
     if (index != 0) return true;
     if (cw) {
