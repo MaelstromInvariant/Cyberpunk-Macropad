@@ -8,7 +8,7 @@ enum layer_names {
     _BASE,
 };
 
-// layout: PrtSc W Alt+Tab EncSW / A S D
+// layout
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_BASE] = LAYOUT(
         KC_PSCR, KC_W,    LALT(KC_TAB), KC_MPLY,
