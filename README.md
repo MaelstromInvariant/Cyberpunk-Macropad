@@ -110,6 +110,7 @@ The OLED panel displays an eye-animation which reacts when you press a key!
 - KiCad
 - DRC
 - PCB and schematics design
+- Soldering
 - Debugging PCB design issues
 - How keyboard matrices work
 - Fusion
