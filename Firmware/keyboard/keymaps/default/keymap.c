@@ -18,9 +18,53 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 // encoder
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
-    [_BASE] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU) }
+    [_BASE] = { ENCODER_CCW_CW(KC_VOLU, KC_VOLD) }
 };
 
+//led effects
+#ifdef RGBLIGHT_ENABLE
+
+#define RGB_CYCLE_MS 180000
+#define RGB_UPDATE_MS 100
+
+static uint32_t rgb_start;
+static uint32_t rgb_last_update;
+
+void keyboard_post_init_user(void) {
+    rgb_start = timer_read32();
+    rgb_last_update = rgb_start;
+
+    rgblight_enable_noeeprom();
+    rgblight_mode_noeeprom(RGBLIGHT_MODE_STATIC_LIGHT);
+    rgblight_sethsv_noeeprom(160, 255, RGBLIGHT_LIMIT_VAL);
+}
+
+void matrix_scan_user(void) {
+    if (timer_elapsed32(rgb_last_update) < RGB_UPDATE_MS) {
+        return;
+    }
+
+    rgb_last_update = timer_read32();
+
+    uint32_t phase = timer_elapsed32(rgb_start) % RGB_CYCLE_MS;
+    uint32_t half_cycle = RGB_CYCLE_MS / 2;
+
+    uint8_t hue;
+
+    if (phase < half_cycle) {
+        hue = 160 - (160UL * phase / half_cycle);
+    } else {
+        hue = 160UL * (phase - half_cycle) / half_cycle;
+    }
+
+    rgblight_sethsv_noeeprom(
+        hue,
+        255,
+        RGBLIGHT_LIMIT_VAL
+    );
+}
+
+#endif
 #ifdef OLED_ENABLE
 
 // eye
