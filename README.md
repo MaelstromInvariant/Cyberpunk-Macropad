@@ -58,7 +58,7 @@ The six switches are arranged as a small keyboard matrix. The rotary encoder is 
 The PCB also has two SK6812 LEDs and an I2C connection for the OLED display.
 
 ## PCB
-<img width="600" height="200" alt="WhatsApp Image 2026-11-01 at 8 33 10 PM" src="https://github.com/user-attachments/assets/8d54c2d5-7c18-42f3-9d9f-61e83fd4a128" />
+<img width="600" height="400" alt="WhatsApp Image 2026-11-01 at 8 33 10 PM" src="https://github.com/user-attachments/assets/8d54c2d5-7c18-42f3-9d9f-61e83fd4a128" />
 
 
 The PCB was designed in KiCad.
