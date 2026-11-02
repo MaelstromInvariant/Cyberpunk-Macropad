@@ -7,6 +7,14 @@ A cyberpunk-themed 6-key macropad with a rotary encoder, OLED display, and RGB l
 <img width="771" height="576" alt="image" src="https://github.com/user-attachments/assets/be04faf4-1194-4388-a565-030af0d06e06" />
 
 
+
+
+https://github.com/user-attachments/assets/bf014644-6c09-46cd-bc12-f978922e46d6
+
+
+
+
+
 ## Features
 
 * 6 MX-style mechanical switches
