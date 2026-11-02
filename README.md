@@ -2,6 +2,8 @@
 
 A cyberpunk-themed 6-key macropad with a rotary encoder, OLED display, and RGB lighting.
 (Its awesome ik :3)
+<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/55ba015b-ae18-4337-bb3f-c50c4e30adbe" />
+
 <img width="771" height="576" alt="image" src="https://github.com/user-attachments/assets/be04faf4-1194-4388-a565-030af0d06e06" />
 
 
