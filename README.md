@@ -43,6 +43,8 @@ A cyberpunk-themed 6-key macropad with a rotary encoder, OLED display, and RGB l
 | Serplex 12-in-1 Soldering Iron Tool Kit 80W (or any other soldering iron) |1|
 | Soldering wire|1|
 
+Check BOM file for more information.
+
 ### Cost Summary
 
 - **Product BOM Cost:** ₹2,347.50 (~$24.80 USD)
