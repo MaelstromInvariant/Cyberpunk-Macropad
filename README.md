@@ -48,6 +48,8 @@ A cyberpunk-themed 6-key macropad with a rotary encoder, OLED display, and RGB l
 - **Product BOM Cost:** ₹2,347.50 (~$24.80 USD)
 - **Manufacturing Consumables (estimated use):** ₹15(~$0.13USD)
 - **Tools & Equipment:** ₹1,700 (~$17.94 USD)
+- **PCB Fabrication:** ₹180 (~$1.90)
+- **3D printing:** ₹280 (~$3)
 
 ## Controls
 
