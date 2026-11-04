@@ -9,7 +9,7 @@ A cyberpunk-themed 6-key macropad with a rotary encoder, OLED display, and RGB l
 
 
 
-https://github.com/user-attachments/assets/bf014644-6c09-46cd-bc12-f978922e46d6
+[Cyberpunk Macropad — Demo](https://github.com/user-attachments/assets/bf014644-6c09-46cd-bc12-f978922e46d6)
 
 
 
