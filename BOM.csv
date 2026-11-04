@@ -2,7 +2,7 @@ Component,Quantity,Approximate Cost (INR),Source
 Unsoldered Seeed XIAO RP2040,1,500,https://robocraze.com/products/seeed-studio-xiao-rp2040-development-board
 EC11E Rotary Encoder,1,65,https://robocraze.com/products/ec11-15mm-rotary-encoder-module
 Diodes (1N4148 assumed),7,15,https://robocraze.com/products/1n4148-diode-pack-of-10
-SK6812 LEDs,2,30,
+SK6812 LEDs,2,30,https://www.digikey.in/en/products/detail/adafruit-industries-llc/4960/14302512?gclsrc=aw.ds&gad_source=1&gad_campaignid=23291916465&gbraid=0AAAAADrbLlhvQMVeAhTWd8g9MM5NBsABT&gclid=EAIaIQobChMIkqeu5_PtlwMVbiSDAx1h0QhzEAQYAiABEgKBPfD_BwE
 MX-style switches,6,300,https://stackskb.com/
 Keycaps (MX-compatible),6,600,https://stackskb.com/
 M3 x 16mm Screws,2,5,
