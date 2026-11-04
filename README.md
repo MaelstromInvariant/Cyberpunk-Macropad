@@ -41,7 +41,12 @@ https://github.com/user-attachments/assets/bf014644-6c09-46cd-bc12-f978922e46d6
 | M3x5x14mm heatset-inserts |2|
 | Serplex 12-in-1 Soldering Iron Tool Kit 80W (or any other soldering iron) |1|
 | Soldering wire|1|
-  
+
+### Cost Summary
+
+- **Product BOM Cost:** ₹2,347.50 (~$24.80 USD)
+- **Manufacturing Consumables:** ₹285 (~$3.01 USD)
+- **Tools & Equipment:** ₹1,700 (~$17.94 USD)
 
 ## Controls
 
