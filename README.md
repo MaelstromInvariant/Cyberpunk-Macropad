@@ -45,7 +45,7 @@ https://github.com/user-attachments/assets/bf014644-6c09-46cd-bc12-f978922e46d6
 ### Cost Summary
 
 - **Product BOM Cost:** ₹2,347.50 (~$24.80 USD)
-- **Manufacturing Consumables:** ₹285 (~$3.01 USD)
+- **Manufacturing Consumables (estimated use):** ₹15(~$0.13USD)
 - **Tools & Equipment:** ₹1,700 (~$17.94 USD)
 
 ## Controls
